@@ -18,12 +18,12 @@ $Settings = @{
 
     Author =  "Joao Rosa"
     Owners = "Joao Rosa"
-    ProjectUrl = "https://git.infor.com/users/jrosa2/repos/powershell-automotive-helpers"
+    ProjectUrl = "https://github.com/JoeBigToe/powershell-utils"
     PackageDescription = "Package to generate an HTML formatted email, based on a json file"
-    Repository = 'https://git.infor.com/users/jrosa2/repos/powershell-automotive-helpers'
+    Repository = 'https://github.com/JoeBigToe/powershell-utils'
     Tags = ""
 
-    GitRepo = "https://git.infor.com/users/jrosa2/repos/powershell-automotive-helpers"
+    GitRepo = "https://github.com/JoeBigToe/powershell-utils"
     CIUrl = "http://nlbavlcomci/jenkins/job/tools/job/PsEmailDispatcher/"
 }
 

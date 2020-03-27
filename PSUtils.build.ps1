@@ -1,5 +1,5 @@
 # Include: Settings
-. './ErpDevTools.settings.ps1'
+. './PSUtils.settings.ps1'
 
 # Include: build_utils
 . './buildUtils.ps1'

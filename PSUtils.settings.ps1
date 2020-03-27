@@ -3,8 +3,8 @@
 ###############################################################################
 param(
     $Artifacts = './artifacts',
-    $ModuleName = 'ErpDevTools',
-    $ModulePath = './ErpDevTools',
+    $ModuleName = 'PSUtils',
+    $ModulePath = './PSUtils',
     $BuildNumber = $env:BUILD_NUMBER,
     $PercentCompliance  = '60'
 )

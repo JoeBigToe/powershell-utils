@@ -5,13 +5,13 @@
 
 
 function ConvertFrom-Ini($message) {
-    $ini = [ordered]@{}
+    $ini = @{}
     switch -regex ($message)
     {
         "^\[(.+)\]" # Section
         {
             $section = $matches[1]
-            $ini[$section] = [ordered]@{}
+            $ini[$section] = @{}
             $CommentCount = 0
         }
         "^(;.*)$" # Comment
